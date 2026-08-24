@@ -21,9 +21,9 @@ a {
   border-style: solid;
   border-bottom-color: #EB7D00;
   border-top-color: #2C5745;
-  width: 76vw;               /* Fills the available width inside the .text box */
+  width: 95vw;               /* Fills the available width inside the .text box */
   height: 60px;
-  margin-left: 150px; 
+  margin-left: 20px; 
   /* padding: 0; */
   font-size: 20px;
   text-decoration: none;
@@ -59,12 +59,12 @@ a {
 
 
 .text {
-  width: 40vw;
+  width: 100vw;
   height: 100vh;
   background-color: #EBE3A7; 
   /* Use padding instead of margins to space things away from the edge */
   padding: 20px; 
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 #down {
@@ -75,32 +75,10 @@ a {
     padding-left:0px;
 }
 
-#p1 {
-    color: #2E2910;
-    font-size: 2.5em;
-    padding-left: 20px;
-    padding-top: 25%;
-}
-
-#h1_pic {
-    height: 100vh;
-    z-index: -1;
-    width: 80vw;
-    margin-left: 115px; 
-}
-
-#redirect_icon {
-    position: absolute;
-    right: 225px;
-    top: 5.75%;
-}
-
 #sodhi {
-    color:#2E2910;
-    padding-left: 20px;
-    position: relative;
-    bottom: 250px;
-    font-size: 22px;
+    color: #2E2910;
+    padding-left: 25px;
+    margin-top: 15px;
 }
 
 #menu_logo {
@@ -121,6 +99,105 @@ a {
 }
 
 #p1 {
-    position: relative;
-    bottom: 225px;
+    font-size: 3em; /* Reduced size */
+    font-weight: bolder;
+    color: #2E2910;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+#welcome {
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 2.2em; /* Reduced size */
+    color: #2E2910;
+}
+
+.left_side {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.orangeline {
+    background-color: #EB7D00;
+    height: 0px;
+    width: 0;
+    border-style: none;
+    padding-left: 10px;
+    padding-top: 50px;
+    line-height: 0;
+}
+
+#line {
+    background-color: #EB7D00;
+    height: 1.75px;
+    border: none;
+    flex-grow: 1; /* Stretches the line to fill available space */
+    margin: 0;
+}
+
+#plus {
+    color: #EB7D00;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.line-plus-wrapper {
+    display: flex;
+    align-items: center; /* Centers the + icon vertically with the line */
+    padding-left: 25px;
+    width: 37vw;
+}
+
+#app_bttn {
+    background-color: #EB7D00;
+    border-radius: 10px;
+    border-style: none;
+    color:#EBE3A7;
+    width: 275px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 25px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+#right_arrow {
+    color: #2E2910;
+    padding-left: 5px;
+}
+
+#appointment_button {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    background-color: #EBE3A7;
+    border-radius: 30px;
+    border-bottom-color: #2C5745;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.matter {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#h1_pic {
+    display: block;
+    max-width: 350px;
+    height: auto;
 }
