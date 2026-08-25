@@ -117,9 +117,9 @@ a {
 
 .left_side {
     width: 40vw;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     padding: 40px;
     box-sizing: border-box;
 }
@@ -183,21 +183,14 @@ a {
 }
 
 .image {
-    background-color: #EBE3A7;
-    border-radius: 30px;
-    border-bottom-color: #2C5745;
-    border-width: 10px;
-    border-style: solid;
+   
 }
 
 .matter {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+    width: 40vw;
 }
 
 #h1_pic {
-    display: block;
     max-width: 350px;
     height: auto;
 }
