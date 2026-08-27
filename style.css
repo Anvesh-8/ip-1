@@ -8,12 +8,24 @@ body {
   overflow-x:hidden;
   display: flex;
   background-color: #EBE3A7;
+  scrollbar-width:none;
+  overflow-y: auto;
 }
 
 a {
     text-decoration: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Edge, Safari */
+}
+html::-webkit-scrollbar {
+    display: none; /* Chrome, Edge, Safari */
+}
 .menu_bar {
   color: #EBE3A7; /* Light yellow background */
   border-radius: 200px;
@@ -178,9 +190,9 @@ a {
 
 #h1_pic {
     width: 700px;
-    height:450px;
-    padding-left: 140px;
-    border-top-left-radius: 50px;
+    height: 450px;
+    margin-left: 140px;
+    border-radius: 50px;
 }
 
 a:hover {
@@ -199,7 +211,7 @@ a:hover {
     border-style: none;
     background-color:whitesmoke;
     width: 90vw;
-    height: 170px;
+    height: 130px;
     display: flex;
     justify-content: space-evenly;
     margin-left: 35px;
@@ -227,48 +239,46 @@ a:hover {
     top:20px;
 }
 
-.patient {
+.patient,
+.expert,.compassionate_Care,.advanced_Care {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 25px;
     padding: 25px;
 }
 
-#users {
-    font-size: 35px;
-}
-
-.patient_content {
+.feature_content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 220px;
 }
 
-#pat {
+.feature_title {
     color: #2C5745;
     font-size: 17px;
+    font-weight: 400;
     margin: 0 0 8px 0;
 }
 
-#p_line {
+.feature_line {
     background-color: #EB7D00;
-    width: 80px;
+    width: 92px;
     height: 2px;
     border: none;
     margin: 0 0 10px 0;
 }
 
-#pat_2 {
+.feature_description {
     color: #2E2910;
-    margin: 0;
-    max-width: 220px;
     font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
 }
 
-#differ {
-    transform: rotate(90);
-    height: 150px;
-    margin-left: 200px;
+#users,
+#setho,#heart,#adav_care {
+    font-size: 35px;
+    margin-top: 3px;
 }
-
-
