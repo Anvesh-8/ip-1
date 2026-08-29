@@ -28,13 +28,10 @@ html::-webkit-scrollbar {
 }
 .menu_bar {
   color: #EBE3A7; /* Light yellow background */
-  border-radius: 200px;
+  border-radius: 10px;
   border-width: 4px;
-  border-style: solid;
-  border-bottom-color: #EB7D00;
-  border-top-color: #2C5745;  
   width: 95vw;               /* Fills the available width inside the .text box */
-  height: 60px;
+  height: 65px;
   margin-left: 20px; 
   /* padding: 0; */
   font-size: 20px;
@@ -80,13 +77,6 @@ html::-webkit-scrollbar {
   /* box-sizing: border-box; */
 }
 
-#down {
-    margin-left: 15px;
-}
-
-#down2 {
-    padding-left:0px;
-}
 
 #sodhi {
     color: #2E2910;
@@ -182,8 +172,6 @@ html::-webkit-scrollbar {
     padding-left: 25px;
 }
 
-
-
 .matter {
     width: 40vw;
 }
@@ -192,7 +180,7 @@ html::-webkit-scrollbar {
     width: 700px;
     height: 450px;
     margin-left: 140px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 a:hover {
