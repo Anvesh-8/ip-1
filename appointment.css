@@ -1,0 +1,55 @@
+/* transistion :all 0.4s ease in out */
+
+.app_box {
+    background-color: #EBE3A7;
+    height: 900px;
+    width: 40.75vw;
+    margin: 2% 0 0 30.6%;
+    border-radius: 20px;
+}
+
+.names , .row_2 {
+    display: flex;
+    justify-content:stretch;
+    width: 150px;
+    height: 80px;
+    color: #2C5745;
+    font-size: 20px;
+    gap: 100px;
+    padding: 0 0 0 20px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#firstname , #lastname {
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    border-style: none;
+    padding-left: 15px;
+}
+
+#neelima {
+    height: 200px;
+    width: 200px;
+    padding:15px 0 0 30.75%;
+}
+
+.email , .date {
+    color: #2C5745;
+    padding: 60px 0 0 0;
+    font-size: 20px;
+}
+
+#email ,#d {
+    padding-left: 15px;
+    border-radius: 10px;
+    border-style: none;
+    height: 60px;
+    width: 200px;
+}
+
