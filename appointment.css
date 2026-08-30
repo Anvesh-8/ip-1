@@ -2,13 +2,13 @@
 
 .app_box {
     background-color: #EBE3A7;
-    height: 900px;
-    width: 40.75vw;
+    height: 1500px;
+    width: 40vw;
     margin: 2% 0 0 30.6%;
     border-radius: 20px;
 }
 
-.names , .row_2 {
+.names , .row_2 ,.row_3   {
     display: flex;
     justify-content:stretch;
     width: 150px;
@@ -25,7 +25,7 @@ body {
     font-style: normal;
 }
 
-#firstname , #lastname {
+#firstname , #lastname , #email ,#d , #docs , #issues {
     border-radius: 10px;
     height: 60px;
     width: 200px;
@@ -45,11 +45,53 @@ body {
     font-size: 20px;
 }
 
-#email ,#d {
-    padding-left: 15px;
-    border-radius: 10px;
-    border-style: none;
-    height: 60px;
-    width: 200px;
+.issue , .preference {
+    color: #2C5745;
+    padding: 100px 0 0 0;
+    font-size: 20px;
 }
 
+#textbox {
+    width: 35vw;
+    height: 150px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 15px;
+    color: #2E2910;
+    font-size: 18px;
+    resize:vertical;
+    word-break: break-all;
+    white-space: pre-wrap; 
+    padding:10px 0 0 10px;
+}
+.exp_issue {
+    color: #2C5745;
+    padding: 150px 0 0 20px;
+    font-size: 20px;
+}
+
+#info {
+    color: #2C5745;
+    padding: 0 0 10px 500px;
+    position: absolute;
+    bottom: 35px;
+}
+
+#opinon {
+    width: 25px;
+    height: 25px;
+    margin-left:20px;
+    /* margin-top: 25px;  */
+}
+
+.so {
+    font-size: 20px;
+    color: #2C5745;
+}
+
+
+.row_5 {
+    display: flex;
+    padding-top: 20px;
+    gap: 50px;
+}

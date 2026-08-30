@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Dr xxxxxx is ready To review your care -->
@@ -17,7 +18,7 @@
         <form>
             <div class="names">
                 <div class="firstName"> 
-                <p>Fisrt Name</p>
+                <p>First Name</p>
                 <input type="search" id="firstname" placeholder="Enter Your First Name">
                 </div>
                 <div class="lastname">
@@ -38,10 +39,58 @@
         <div class="row_3">
             <div class="issue">
                 <p>Issue</p>
-                <input type="search">
+                <select id="issues">
+                    <option>Don't Know the Problem</option>
+                    <option>Normal Checkup</option>
+                    <option>Heart & Blood Pressure</option>
+                    <option>Lungs & Breathing</option>
+                    <option>Brain & Nerves</option>
+                    <option>Childern's Health</option>
+                    <option>Skin,Hair & Nails</option>
+                    <option>Stomach & Digestion</option>
+                    <option>Eye Care</option>
+                    <option>ENT</option>
+                    <option>Urinary & Kidney Care</option>
+                    <option>Diabetis & Hormones</option>
+                    <option>Mental Health</option>
+                    <option>Cancer Care</option>
+                </select>
             </div>
+            <div class="preference">
+                <p>Preference</p>
+                <select id="docs">
+                    <option>Don't Know the Problem</option>
+                    <option>Normal Checkup</option>
+                    <option>Heart & Blood Pressure</option>
+                    <option>Lungs & Breathing</option>
+                    <option>Brain & Nerves</option>
+                    <option>Childern's Health</option>
+                    <option>Skin,Hair&Nails</option>
+                    <option>Stomach & Digestion</option>
+                    <option>Eye Care</option>
+                    <option>ENT</option>
+                    <option>Urinary & Kidney Care</option>
+                    <option>Diabetis & Hormones</option>
+                    <option>Mental Health</option>
+                    <option>Cancer Care</option>
+                </select>
+            </div>
+        </div>
+        <div class="exp_issue">
+                <p id="e_issue">Can You Explain Your Issue (Optional)</p> 
+                <i class="fa-solid fa-circle-info" id="info"></i>
+            <textarea id="textbox"></textarea>
+        </div>
+        <div class="row_5">
+            <div class="checkbox">
+                <input type="checkbox" id="opinon" name="seond">
+                <label for="opinon" class="so">Second Opinon</label>
+            </div>
+            <p id="upload_text">Upload Your Medical Diagonsis
+            <input type="file" id="upload">
         </div>
         </form>
     </div>
 </body>
 </html>
+
