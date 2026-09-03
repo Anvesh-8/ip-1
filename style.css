@@ -101,13 +101,17 @@ html::-webkit-scrollbar {
     right: 70px;
 }
 
-#p1 {
+#p1 , #dark_h {
     font-size: 3.25em; /* Reduced size */
     font-weight: bolder;
     color: #2E2910;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 25px;
+}
+
+#dark_h {
+    color: black;
 }
 
 #welcome {
@@ -180,7 +184,11 @@ html::-webkit-scrollbar {
     width: 700px;
     height: 450px;
     margin-left: 140px;
-    border-radius: 20px;
+    border-radius: 24px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #EB7D00;
+    box-shadow: 0 18px 15px rgb(0, 200, 0);
 }
 
 a:hover {
@@ -270,3 +278,4 @@ a:hover {
     font-size: 35px;
     margin-top: 3px;
 }
+
