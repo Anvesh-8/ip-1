@@ -31,7 +31,7 @@ html::-webkit-scrollbar {
   border-radius: 10px;
   border-width: 4px;
   width: 95vw;               /* Fills the available width inside the .text box */
-  height: 65px;
+  height: 80px;
   margin-left: 20px; 
   /* padding: 0; */
   font-size: 20px;
@@ -82,11 +82,13 @@ html::-webkit-scrollbar {
     color: #2E2910;
     padding-left: 25px;
     margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 #menu_logo {
-    height:70px;
-    width: 70px;
+    height:85px;
+    width: 85px;
     padding: 0;
 }
 
@@ -101,23 +103,27 @@ html::-webkit-scrollbar {
     right: 70px;
 }
 
-#p1 , #dark_h {
+#p1  {
     font-size: 3.25em; /* Reduced size */
     font-weight: bolder;
-    color: #2E2910;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    color: #2C5745;
     padding-left: 25px;
+    margin-bottom: 0px; 
+    margin-top: 5px;  
 }
-
 #dark_h {
-    color: black;
+    color: #2C5745;
+    font-size: 3.25em; /* Reduced size */
+    font-weight: bolder;
+    padding-left: 25px;
+    margin-top: 2px;
+    margin-bottom: 0;
 }
 
 #welcome {
-    padding-left: 25px;
-    padding-top: 15px;
-    margin-bottom: 0;
+    padding-left: 70px;
+    margin-top: 0px;
+    padding-top:0px;
     font-size: 2.2em; /* Reduced size */
     color: #2E2910;
 }
@@ -182,13 +188,10 @@ html::-webkit-scrollbar {
 
 #h1_pic {
     width: 700px;
-    height: 450px;
+    height: 498.75px;
     margin-left: 140px;
     border-radius: 24px;
-    border-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: #EB7D00;
-    box-shadow: 0 18px 15px rgb(0, 200, 0);
+    box-shadow: 0 15px 35px  rgba(44, 87, 69, 0.22);
 }
 
 a:hover {
@@ -203,7 +206,7 @@ a:hover {
 }
 
 .white_bar {
-    border-radius: 15px;
+    border-radius: 16px;
     border-style: none;
     background-color:whitesmoke;
     width: 90vw;
@@ -211,6 +214,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     margin-left: 35px;
+    box-shadow:0 10px 30px rgba(44,87,69,0.10);
 }
 
 .menu_app {
@@ -227,12 +231,12 @@ a:hover {
 
 #welcome_line {
     background-color:#EB7D00;
-    height: 3.75px;
+    height: 4px;
     border: none;
     width: 35px;
     margin-left:25px;
     position: relative;
-    top:20px;
+    top:30px;
 }
 
 .patient,
@@ -279,3 +283,21 @@ a:hover {
     margin-top: 3px;
 }
 
+.ccc {
+    display: flex;
+    width: max-content;
+    height: fit-content;
+    justify-content: space-evenly;
+    color: #2C5745;
+    padding-left: 30px;
+    font-variant:small-caps;
+    font-size: 1.75em;
+    gap: 7px;
+    margin-bottom:0px;
+    font-weight: 550;
+}
+
+#dot1 , #dot2 {
+    color: #EB7D00;
+    margin-top: 22px;
+}
