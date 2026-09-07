@@ -1,0 +1,13 @@
+#about {
+    font-size: 4em;
+    margin: 20px;
+    color:#2C5745;
+}
+
+#about_line {
+    background-color: #EB7D00;
+    height: 5px;
+    width: 250px;
+    border: none;
+    margin: 22px;
+}
