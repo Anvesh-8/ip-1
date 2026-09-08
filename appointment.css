@@ -8,9 +8,9 @@
     border-radius: 20px;
 }
 
-.names , .row_2 ,.row_3   {
+.names , .row_3 {
     display: flex;
-    justify-content:stretch;
+    justify-content:space-evenly;
     width: 150px;
     height: 80px;
     color: #2C5745;
@@ -19,18 +19,28 @@
     padding: 0 0 0 20px;
 }
 
+.row_2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 80px;
+    gap: 100px;
+    color: #2C5745;
+    padding: 55px 0 0 20px;
+    font-size: 20px;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
-    font-style: normal;
 }
 
-#firstname , #lastname , #email ,#d , #docs , #issues {
+#firstname_in , #lastname , #email_in ,#d , #docs , #issues {
     border-radius: 10px;
     height: 60px;
     width: 200px;
     border-style: none;
-    padding-left: 15px;
+    padding-left: 15px; 
 }
 
 #neelima {
@@ -39,20 +49,17 @@ body {
     padding:15px 0 0 30.75%;
 }
 
-.email , .date {
-    color: #2C5745;
-    padding: 60px 0 0 0;
-    font-size: 20px;
-}
+/* .email  {
+    padding: 60px 0 0 20px;
+} */
 
 .issue , .preference {
-    color: #2C5745;
-    padding: 100px 0 0 0;
-    font-size: 20px;
+    padding: 40px 0 0 0;
+    gap: 100px;
 }
 
 #textbox {
-    width: 35vw;
+    width:550px;
     height: 150px;
     border-radius: 20px;
     border-style: none;
@@ -65,17 +72,11 @@ body {
     padding:10px 0 0 10px;
 }
 .exp_issue {
-    color: #2C5745;
-    padding: 150px 0 0 20px;
+    padding: 80px 0 0 20px;
     font-size: 20px;
-}
-
-#info {
-    color: #2C5745;
-    padding: 0 0 10px 500px;
-    position: absolute;
-    bottom: 35px;
-}
+    /* display: flex;
+    justify-content:space-evenly; */
+} 
 
 #opinon {
     width: 25px;
@@ -94,4 +95,31 @@ body {
     display: flex;
     padding-top: 20px;
     gap: 50px;
+}
+
+.img_below {
+    color: #2C5745;
+    font-size: 20px;
+}
+
+#upload{
+    background-color: #2E2910;
+    color: #EB7D00;
+    font-weight: 200;
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 18px;
+}
+
+#plus {
+    color: #2C5745;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.row_5 {
+    display: flex;
+    gap: 150px;
 }
