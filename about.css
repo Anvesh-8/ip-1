@@ -2,6 +2,7 @@
     font-size: 4em;
     margin: 20px;
     color:#2C5745;
+    text-align: center;
 }
 
 #about_line {
@@ -9,5 +10,5 @@
     height: 5px;
     width: 250px;
     border: none;
-    margin: 22px;
+    margin-left: 42%;
 }
