@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh; 
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
   display: flex;
   background-color: #EBE3A7;
   scrollbar-width:none;
@@ -300,4 +300,9 @@ a:hover {
 #dot1 , #dot2 {
     color: #EB7D00;
     margin-top: 22px;
+}
+
+.dark_space {
+    width: 100vw;
+    height:50vh;
 }
