@@ -106,8 +106,8 @@ body {
     background-color: #2E2910;
     color: #EB7D00;
     font-weight: 200;
-    height:150px;
-    width:150px;
+    height:100px;
+    width:250px;
     border-radius: 15px;
     border-style: none;
     font-size: 18px;
@@ -121,5 +121,6 @@ body {
 
 .row_5 {
     display: flex;
-    gap: 150px;
+    gap: 100px;
+    padding-top: 35px;
 }
