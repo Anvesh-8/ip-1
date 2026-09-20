@@ -314,7 +314,7 @@ a:hover {
 #differline {
     background-color: #EB7D00;
     width:5px;
-    height: 100vh;
+    height: 100%;
     margin-top: 250px;
     margin-left: 40%;
     /* margin-right: 10px; */
@@ -323,7 +323,7 @@ a:hover {
 
 .testnomials {
     color: #2C5745;
-    margin-top: 210px;
+    margin-top: 200px;
     margin-left:20px;
     width: 60vw;
     height: 70vh;
@@ -340,6 +340,14 @@ a:hover {
 .revs {
     display: flex;
     flex-direction: row;
-    gap:100px;
-    height: 300px;
+    flex-flow: row wrap; /* Forces them to stay in one row */
+    column-gap: 150px;         /* Reduced gap */
+    width:45vw;       /* Allow it to use available space */
+}
+
+
+.av,.kiran,.rani,.naveen{
+    width: 250px;
+    font-size: 1.25em;
+
 }
