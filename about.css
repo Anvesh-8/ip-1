@@ -1,14 +1,38 @@
 #about {
-    font-size: 4em;
+    font-size: 2.75em;
     margin: 20px;
     color:#2C5745;
-    text-align: center;
 }
 
-#about_line {
-    background-color: #EB7D00;
-    height: 5px;
-    width: 550px;
-    border: none;
-    margin-left: 30%;
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("neelima-removebg-preview.png") center/no repeat;
+}
+
+.intro {
+    width: 40vw;
+    height: 20vh;
+}
+
+#text {
+    margin-left:20px;
+}
+
+.forpic {
+    transform: rotate(75deg);
+    width: 300px;
+    height: 400px;
+    margin: 100px;
+}
+
+#small_pic {
+    transform: rotate(275deg);
+    width: 250px;
+    height: 250px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 5px;
+    
 }
