@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.head {
+    background-color: #2C5745;
+    height: 15vh;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#head_depts {
+    color: #EB7D00;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+}
