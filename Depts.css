@@ -8,32 +8,51 @@
 }
 
 .head {
-    background-color: #2c5745;
-    height: 15vh;
-    width: 100%;
-    
-    /* Using Flexbox to space things out evenly */
+    /* background-color: #245543; */
+    height: 100vh;
+    width:30%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    justify-content: flex-start;
+    align-content: space-evenly;
 }
 
-/* This empty spacer matches the width of the image on the right, 
-   forcing the text to be mathematically in the exact center */
-.spacer {
-    width: 110px;
+a:hover {
+    text-decoration: underline wavy;
+    transition: all 0.2s ease;
+    text-decoration-color:#ed7d00 ;
 }
 
-#head_depts {
-    color: #EB7D00;
-    font-size: 2em;
-    margin: 0;
-    text-align: center;
+a {
+    text-decoration: none;
 }
 
 #head_pic {
-    height: 110px;
-    width: 110px;
-    display: block;
+    width: 125px;
+    height: 125px;
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
+#head_dept {
+    font-size: 2em;
+    color: #ed7d00;
+    margin-top: 37.5px;
+    padding-left: 20px;
+}
+
+.overall {
+    display: flex;
+    width: 30%;
+    background: linear-gradient(#2c5745,#EBE3A7);
+}
+
+.depts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #2E2910;
+    font-size:1.75em;
+    margin-top: 130px;
+    width: 30%;
+    margin-left: -100px;
 }
