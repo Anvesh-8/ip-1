@@ -101,26 +101,21 @@ body {
     color: #2C5745;
     font-size: 20px;
 }
-
-#upload{
-    background-color: #2E2910;
-    color: #EB7D00;
-    font-weight: 200;
-    height:100px;
-    width:250px;
-    border-radius: 15px;
-    border-style: none;
-    font-size: 18px;
-}
-
-#plus {
-    color: #2C5745;
-    font-size: 18px;
-    padding-right: 10px;
-}
-
 .row_5 {
     display: flex;
     gap: 100px;
     padding-top: 35px;
+}
+
+#file_upload {
+    display: none;
+}
+
+#upload_bttn {
+    display: none;
+    background-color: #2E2910;
+    color: #EBE3A7;
+    border-radius: 10px;
+    height: 100px;
+    width: 250px;
 }
