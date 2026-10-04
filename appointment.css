@@ -1,121 +1,60 @@
-/* transistion :all 0.4s ease in out */
-
-.app_box {
+.overall {
     background-color: #EBE3A7;
-    height: 1500px;
-    width: 40vw;
-    margin: 2% 0 0 30.6%;
-    border-radius: 20px;
-}
-
-.names , .row_3 {
+    border-radius: 15px;
     display: flex;
-    justify-content:space-evenly;
-    width: 150px;
-    height: 80px;
-    color: #2C5745;
-    font-size: 20px;
-    gap: 100px;
-    padding: 0 0 0 20px;
+    gap: 30px;
+    margin:100px;
+    height: 75%;
 }
 
-.row_2 {
+.progress {
     display: flex;
-    justify-content: space-evenly;
-    width: 150px;
-    height: 80px;
-    gap: 100px;
+    row-gap: 105px;
     color: #2C5745;
-    padding: 55px 0 0 20px;
-    font-size: 20px;
+    margin-left: 0px;
+    padding-top: 65px;
+    flex-direction: column;
 }
 
-body {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
+.progress_line {
+    transform: rotate(180deg);
+    background-color: black;
+    width: 3px;
+    height: 50px;
+    border: none;
+    margin-left: 50px;
 }
 
-#firstname_in , #lastname , #email_in ,#d , #docs , #issues {
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
-    border-style: none;
-    padding-left: 15px; 
-}
-
-#neelima {
-    height: 200px;
-    width: 200px;
-    padding:15px 0 0 30.75%;
-}
-
-/* .email  {
-    padding: 60px 0 0 20px;
-} */
-
-.issue , .preference {
-    padding: 40px 0 0 0;
-    gap: 100px;
-}
-
-#textbox {
-    width:550px;
-    height: 150px;
-    border-radius: 20px;
-    border-style: none;
-    padding-left: 15px;
-    color: #2E2910;
-    font-size: 18px;
-    resize:vertical;
-    word-break: break-all;
-    white-space: pre-wrap; 
-    padding:10px 0 0 10px;
-}
-.exp_issue {
-    padding: 80px 0 0 20px;
-    font-size: 20px;
-    /* display: flex;
-    justify-content:space-evenly; */
-} 
-
-#opinon {
-    width: 25px;
-    height: 25px;
-    margin-left:20px;
-    /* margin-top: 25px;  */
-}
-
-.so {
-    font-size: 20px;
-    color: #2C5745;
-}
-
-
-.row_5 {
+.circle1 , .circle3,.circle2,.circle4 {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #2C5745;
+    color: white;
+    font-size: 1.25em;
+    margin-left: 25px;
     display: flex;
-    padding-top: 20px;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.steps {
+    margin-top: 60px;
 }
 
-.img_below {
-    color: #2C5745;
-    font-size: 20px;
-}
-.row_5 {
+.step_1 , .step_2 , .step_3 ,.step_4 {
     display: flex;
-    gap: 100px;
-    padding-top: 35px;
+    color: #2C5745;
+    font-size: 1.25em;
+    margin-top: 9px;
+    margin-bottom: 100px;
 }
 
-#file_upload {
-    display: none;
+
+.human , .calendar , .setho ,.verified {
+    font-size: 1.5em;
 }
 
-#upload_bttn {
-    display: none;
-    background-color: #2E2910;
-    color: #EBE3A7;
-    border-radius: 10px;
-    height: 100px;
-    width: 250px;
+#step1_txt , #step2_txt , #step3_txt , #step4_txt {
+    margin-top: -10px;
+    padding-left: 20px;
 }
