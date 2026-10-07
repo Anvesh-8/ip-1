@@ -4,7 +4,7 @@
     display: flex;
     gap: 30px;
     margin:100px;
-    height: 75%;
+    min-height:600PX;
 }
 .subset {
     display: flex;
@@ -12,7 +12,7 @@
 }
 .progress {
     display: flex;
-    row-gap: 105px;
+    row-gap: 70px;
     color: #2C5745;
     padding-top: 10px;
     flex-direction: column;
@@ -30,22 +30,20 @@
     justify-content: center;
 }
 .steps {
-    margin-top: 10px;
-}
-.step_1 , .step_2 , .step_3 ,.step_4 {
+    margin-top: 0px;
     display: flex;
     color: #2C5745;
     font-size: 1.1em;
-    /* margin-top: 9px; */
-    margin-bottom: 100px;
+    flex-direction: column;
+    row-gap: 50px;
 }
 .human , .calendar , .setho ,.verified {
     font-size: 1.4em;
 }
 
 #step1_txt , #step2_txt , #step3_txt , #step4_txt {
-    margin-top: -10px;
-    padding-left: 20px;
+    margin-top: -20px;
+    padding-left: 30px;
 }
 
 #bookapp {
@@ -59,4 +57,56 @@
     margin-left: 30px;
     font-size: 18px;
     color: #2C5745;
+}
+
+.rows {
+    display: flex;
+    color: #2C5745;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.row1 {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+#name , #sex , #years , #number , #issues {
+    width: 130px;
+    height: 45px;
+    margin-top: 5px;    
+    border: none;
+    border-radius: 5px;
+}
+
+#user,#gender_icon ,#phone_icon {
+    padding-right: 5px;
+}
+
+.secondopinon {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#file_input,#upload_bttn,#filename {
+    display:none;
+}
+
+#soga {
+    width: 20px;
+    height: 20px;
+}
+
+#upload_bttn {
+    border-radius: 10px;
+    height: 75px;
+    width: 175px;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+    background-color: #2E2910;
+    color: #EBE3A7;
+    border-color:#EB7D00;
+    border-width: 3px;
+    border-style:solid;
 }

@@ -19,26 +19,18 @@
     <!-- Dr xxxxxx is ready To review your care -->
     <div class="overall">
         <div class="full">
-            <h2 id="bookapp">Boook Your Appointment</h2>
+            <h2 id="bookapp">Book Your Appointment</h2>
             <p id="bookapp_txt">Fill in the details below and choose your preferred doctor date & time .<br>We'll Take
-                Care the rest</p>
+                Care of the rest</p>
             <div class="subset">
                 <div class="progress">
-                    <div class="circle1">
-                        <center>1</center>
-                    </div>
+                    <div class="circle1">1</div>
                     <!-- <hr class="progress_line"> -->
-                    <div class="circle2">
-                        <center>2</center>
-                    </div>
+                    <div class="circle2">2</div>
                     <!-- <hr class="progress_line"> -->
-                    <div class="circle3">
-                        <center>3</center>
-                    </div>
+                    <div class="circle3">3</div>
                     <!-- <hr class="progress_line"> -->
-                    <div class="circle4">
-                        <center>4</center>
-                    </div>
+                    <div class="circle4">4</div>
                 </div>
                 <div class="steps">
                     <div class="step_1">
@@ -69,6 +61,67 @@
                         <p id="step4_txt">Confirm & Book <br>Review and Confirm Appointment</p>
                     </div>
                 </div>
+                <form>
+                    <div class="rows">
+                        <div class="row1">
+                            <div class="fullname">
+                                <i class="fa-regular fa-user" id="user"></i><label for="name">Full Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter Your Full Name " id="name" name="fullname"
+                                    required>
+                            </div>
+                            <div class="gender">
+                                <i class="fa-solid fa-venus-mars" id="gender_icon"></i><label for="sex">Gender</label>
+                                <br>
+                                <select id="sex" name="gender" required>
+                                    <option>Select Gender</option>
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
+                                </select>
+                            </div>
+                            <div class="age">
+                                <label for="years">Age</label>
+                                <br>
+                                <input type="number" id="years" placeholder="Enter Your Age" name="age">
+                            </div>
+                            <div class="phonenumber">
+                                <i class="fa-solid fa-phone" id="phone_icon"></i><label for="number">Phone
+                                    Number</label>
+                                <br>
+                                <input type="tel" id="number" placeholder="Enter Your Phone Number" name="phonenumber">
+                            </div>
+                            <div class="issue">
+                                <label for="issues">Reason</label>
+                                <br>
+                                <select id="issues" name="reason">
+                                    <option>Don't Know the Problem</option>
+                                    <option>Normal Checkup</option>
+                                    <option>Heart & Blood Pressure</option>
+                                    <option>Lungs & Breathing</option>
+                                    <option>Brain & Nerves</option>
+                                    <option>Children's Health</option>
+                                    <option>Skin,Hair & Nails</option>
+                                    <option>Stomach & Digestion</option>
+                                    <option>Eye Care</option>
+                                    <option>ENT</option>
+                                    <option>Urinary & Kidney Care</option>
+                                    <option>Diabetis & Hormones</option>
+                                    <option>Mental Health</option>
+                                    <option>Cancer Care</option>
+                                </select>
+                            </div>
+                            <div class="secondopinon">
+                                <input type="checkbox" id="soga" name="secondopinon" onchange="chikki(this)">
+                                <label for="soga">Second Opinion</label>
+                            </div>
+                            <div class="previousdiagonsis">
+                                <button id="upload_bttn">Click Here to Upload Previous Diagnosis</button>
+                                <input type="file" id="file_input" name="diagonsis">
+                                <span id="filename"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
