@@ -61,6 +61,7 @@
 
 .rows {
     display: flex;
+    flex-direction: column;
     color: #2C5745;
     font-size: 18px;
     margin-left: 20px;
@@ -109,4 +110,8 @@
     border-color:#EB7D00;
     border-width: 3px;
     border-style:solid;
+}
+
+#row2_heading {
+    margin-top: 20px;
 }

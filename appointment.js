@@ -24,3 +24,9 @@ ntr.addEventListener("change",function() {
         anr.innerText="no file choosen yet";
     }
 });
+
+let sav = document.querySelector("form");
+sav.addEventListener("submit",function(event) {
+    event.preventDefault();
+    console.log("Your Appointment booking with {Doctor} On {} is Successful")
+});
